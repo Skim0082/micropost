@@ -5,3 +5,15 @@ sungjoe:
   name: SungJoe
   email: joe@email.com
   password_digest: <%= User.digest('password') %>
+  
+john:
+  name: john
+  email: john@email.com
+  password_digest: <%= User.digest('password') %>  
+  
+<% 30.times do |n| %>
+user_<%= n %>:
+  name:  <%= "User #{n}" %>
+  email: <%= "user-#{n}@email.com" %>
+  password_digest: <%= User.digest('password') %>
+<% end %>  
