@@ -11,6 +11,7 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     if @user.save
       # Handle a successful save.
+      log_in @user    # set session for the user id
       flash[:success] = "Welcome to the Self-study App of Rails!"
       redirect_to @user   # equivalent user_url(@user)
     else
