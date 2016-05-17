@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  content: "This is the first comment"
+  created_at: <%= 10.minutes.ago %>
+
+two:
+  content: "This is the second comment"
+  created_at: <%= 1.year.ago %>
+
+three:
+  content: "This is the third comment"
+  created_at: <%= 3.hours.ago %>
+
+most_recent:
+  content: "This is the fourth comment"
+  created_at:  <%= Time.zone.now %>
