@@ -16,6 +16,20 @@ john:
   activated: true
   activated_at: <%= Time.zone.now %>  
   
+archer:
+  name: archer
+  email: archer@email.com
+  password_digest: <%= User.digest('password') %>  
+  activated: true
+  activated_at: <%= Time.zone.now %>
+  
+ants:
+  name: ants
+  email: ants@email.com
+  password_digest: <%= User.digest('password') %>  
+  activated: true
+  activated_at: <%= Time.zone.now %>
+  
 <% 30.times do |n| %>
 user_<%= n %>:
   name:  <%= "User #{n}" %>
