@@ -23,7 +23,7 @@ class MicropostsController < ApplicationController
   
     # Only permit micropost's content
     def micropost_params
-      params.require(:micropost).permit(:content)
+      params.require(:micropost).permit(:content, :picture)
     end
     
     def correct_user
