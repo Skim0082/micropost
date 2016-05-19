@@ -8,11 +8,12 @@ class PictureUploader < CarrierWave::Uploader::Base
   process resize_to_limit: [400, 400]   # limit image resize 400 x 400
 
   # Choose what kind of storage to use for this uploader:
-  if Rails.env.production?
-    storage :fog  # Cloud IDE storage
-  else
-    storage :file # Local filesystem
-  end
+  # if Rails.env.production?
+  #   storage :fog  # Cloud IDE storage
+  # else
+  #   storage :file # Local filesystem
+  # end
+  storage :file
   # storage :fog
 
   # Override the directory where uploaded files will be stored.
