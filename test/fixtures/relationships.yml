@@ -1,3 +1,18 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 # empty
+one:
+  follower: sungjoe
+  followed: john
+  
+two:
+  follower: sungjoe
+  followed: ants
+  
+three:
+  follower: john
+  followed: sungjoe
+  
+four:
+  follower: archer
+  followed: sungjoe
