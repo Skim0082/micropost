@@ -4,7 +4,7 @@
 -	Ruby on Rails (MVC Framework)
 -	PostgreSQL, SendGrid (Mail Service)
 -	Cloud9 IDE Development Environment
--	Heroku, GitHub
+-	Heroku
 -	Gravatar, JavaScript, JQuery, BootStrap, HTML5, CSS3
 
 ![Build Status](https://github.com/Skim0082/micropost/blob/master/micropost03.png)
