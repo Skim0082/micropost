@@ -1,3 +1,12 @@
-# Self Study for Ruby on Rails Tutorial: Micropost Application
+#Micro Post
+## Ruby on Rails Self Project
+### Date: May 2016,		 Role: Web UI/ Front/ Back-End
+-	Ruby on Rails (MVC Framework)
+-	PostgreSQL, SendGrid (Mail Service)
+-	Cloud9 IDE Development Environment
+-	Heroku, GitHub
+-	Gravatar, JavaScript, JQuery, BootStrap, HTML5, CSS3
 
-This is my third time self study for Ruby on Rails following the [*Ruby on Rails Tutorial:Learn Web Development with Rails*] by [Michael Hartl] 
+![Build Status](https://github.com/Skim0082/micropost/blob/master/micropost03.png)
+![Build Status](https://github.com/Skim0082/micropost/blob/master/micropost02.png)
+
