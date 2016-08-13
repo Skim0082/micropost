@@ -1,6 +1,6 @@
 #Micro Post
 ## Ruby on Rails Self Project
-### Date: May 2016,		 Role: Web UI/ Front/ Back-End
+### Date: May 2016,	Role: Web UI/ Front/ Back-End
 -	Ruby on Rails (MVC Framework)
 -	PostgreSQL, SendGrid (Mail Service)
 -	Cloud9 IDE Development Environment
